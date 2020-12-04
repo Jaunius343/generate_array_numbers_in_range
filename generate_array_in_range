@@ -1,6 +1,8 @@
+#include <time.h>
+
 void generate_array(int data[], int size, int low, int high)
 {
-    srand(1);
+    srand(time(0));
 
 
     if(high < low)
